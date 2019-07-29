@@ -531,6 +531,10 @@ ramips_setup_macs()
 	phicomm,k2g|\
 	skylab,skw92a|\
 	totolink,lr1200)
+	cudy,wr1000|\
+	netgear,ex3700|\
+	netgear,ex6130|\
+	netgear,wnce2001)
 		wan_mac=$(mtd_get_mac_binary factory 0x2e)
 		;;
 	dlink,dir-300-b7|\
